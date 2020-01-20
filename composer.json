@@ -1,0 +1,26 @@
+{
+    "name": "melogail/larave-reviews",
+    "description": "Simple reviews system with rating for laravel framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed Elogail",
+            "email": "moh.elogail@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Ogail\\LaravelReviews\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ogail\\LaravelReviews\\Providers\\LaravelReviewServiceProvider\\"
+            ]
+        }
+    }
+}
