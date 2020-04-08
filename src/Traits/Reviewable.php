@@ -49,6 +49,7 @@ trait Reviewable
      * @param $reviewer_id
      * @param $model_id
      * @param array $data
+     * @return
      */
     public function updateReview($reviewer_id, $model_id, $data = [])
     {
@@ -67,11 +68,4 @@ trait Reviewable
     {
         return $this->reviews()->where('reviewer_id', $reviewer_id)->get();
     }
-
-    public function test()
-    {
-        return config('laravel-reviews.models.reviewer.class');
-    }
-
-
 }

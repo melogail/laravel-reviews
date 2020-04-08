@@ -19,6 +19,7 @@ class CreateReviewsTable extends Migration
             $table->string('title')->nullable();
             $table->text('body')->nullable();
             $table->integer('rate')->nullable();
+            $table->integer('parent_id')->default(0);
             $table->boolean('approved')->default(1);
             $table->morphs('model');
             $table->timestamps();
