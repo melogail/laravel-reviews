@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Melogail\\LaravelReviews\\Providers\\LaravelReviewsServiceProvider\\"
+                "Melogail\\LaravelReviews\\Providers\\LaravelReviewsServiceProvider"
             ]
         }
     }
