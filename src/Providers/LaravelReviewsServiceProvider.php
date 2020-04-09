@@ -33,6 +33,6 @@ class LaravelReviewsServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/../database/migrations/create_reviews_table.php' => $this->app->databasePath("/migrations/{$timestamp}_create_reviews_table.php"),
             __DIR__ . '/../config/laravel-reviews.php' => config_path('laravel-reviews.php'),
-        ], 'data');
+        ], 'reviews_data');
     }
 }
