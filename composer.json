@@ -12,14 +12,14 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Ogail\\LaravelReviews\\": "src/"
+            "Melogail\\LaravelReviews\\": "src/"
         }
     },
     "require": {},
     "extra": {
         "laravel": {
             "providers": [
-                "Ogail\\LaravelReviews\\Providers\\LaravelReviewServiceProvider\\"
+                "Melogail\\LaravelReviews\\Providers\\LaravelReviewServiceProvider\\"
             ]
         }
     }

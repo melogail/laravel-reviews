@@ -1,4 +1,10 @@
 <?php
+/**
+ * Author: Mohamed Elogail
+ * Email: moh.elogail@gmail.com
+ * Date: 16/01/2020
+ * Time: 03:22 م
+ */
 
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;

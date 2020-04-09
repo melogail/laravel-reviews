@@ -1,6 +1,12 @@
 <?php
+/**
+ * Author: Mohamed Elogail
+ * Email: moh.elogail@gmail.com
+ * Date: 16/01/2020
+ * Time: 05:37 م
+ */
 
-namespace Ogail\LaravelReviews\Providers;
+namespace Melogail\LaravelReviews\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

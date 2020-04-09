@@ -1,6 +1,12 @@
 <?php
+/**
+ * Author: Mohamed Elogail
+ * Email: moh.elogail@gmail.com
+ * Date: 16/01/2020
+ * Time: 03:13 م
+ */
 
-namespace Ogail\LaravelReviews\Models;
+namespace Melogail\LaravelReviews\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
