@@ -1,7 +1,7 @@
 {
-    "name": "melogail/larave-reviews",
+    "name": "melogail/laravel-reviews",
     "description": "Simple reviews system with rating for laravel framework",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
