@@ -19,7 +19,7 @@ trait Reviewable
      */
     public function reviews()
     {
-        return $this->morphMany(Review::class, 'model');
+        return $this->morphToMany(Review::class, 'model');
     }
 
     /**
