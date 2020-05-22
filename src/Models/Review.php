@@ -26,7 +26,7 @@ class Review extends Model
      * @var array
      */
     protected $fillable = [
-        'reviewer_id', 'title', 'body', 'rate', 'approved', 'model_id', 'model_type'];
+        'reviewer_id', 'title', 'body', 'parent_id', 'rate', 'approved', 'model_id', 'model_type'];
 
     /**
      * Guarded fields from mass assignment check
